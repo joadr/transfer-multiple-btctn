@@ -13,3 +13,4 @@ The idea is to test receiving from multiple outputs in UTXO based blockchains.
 * Once confirmed copy the transaction hash and add it in `app.service.ts` in line 38.
 * If you modify the amount of outputs or inputs, be sure to update the fee in line 35 and change the amounts to send each output.
 * Call the sendMultiple endpoint (GET http://localhost:3000/createAddress) and copy the resulting raw transaction
+* Broadcast transaction to (https://live.blockcypher.com/btc-testnet/pushtx/)
